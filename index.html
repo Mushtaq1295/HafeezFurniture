@@ -1,0 +1,3087 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hafeez Furniture | Furniture Store in Vuyyuru</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Visit Hafeez Furniture at Main Road Kakanipark Center, Vuyyuru, Andhra Pradesh. Explore furniture styles for your home and contact us for enquiries.">
+  <meta name="keywords" content="Hafeez Furniture, Furniture Store Vuyyuru, Sofas, Beds, Dining Tables, Wardrobes, Andhra Pradesh Furniture">
+  <meta name="author" content="Hafeez Furniture">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="business.business">
+  <meta property="og:title" content="Hafeez Furniture | Quality Furniture in Vuyyuru">
+  <meta property="og:description" content="Discover comfortable, stylish furniture for living rooms, bedrooms, and dining spaces at Hafeez Furniture, Vuyyuru.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80">
+  <meta property="og:url" content="https://hafeezfurniture.com">
+
+  <!-- Favicon Icon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238C5835' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/%3E%3Cpolyline points='9 22 9 12 15 12 15 22'/%3E%3C/svg%3E">
+
+  <!-- Google Fonts CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Local Business Schema (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FurnitureStore",
+    "name": "Hafeez Furniture",
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+    "telephone": "+919059105786",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Main Road Kakanipark Center",
+      "addressLocality": "Vuyyuru",
+      "addressRegion": "Andhra Pradesh",
+      "postalCode": "521165",
+      "addressCountry": "IN"
+    },
+    "hasMap": "https://www.google.com/maps/search/?api=1&query=Hafeez+Furniture+Main+Road+Kakanipark+Center+Vuyyuru+Andhra+Pradesh+521165",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.3",
+      "reviewCount": "26",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "09:00",
+        "closes": "21:00"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ==========================================================================
+       CSS RESET & DESIGN TOKENS
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-heading: 'Playfair Display', Georgia, serif;
+
+      /* Color Palette: Warm, earthy, premium timber & cream tones */
+      --bg-cream: #FAF7F2;
+      --bg-surface: #FFFFFF;
+      --bg-warm-tint: #F3ECE2;
+      --bg-warm-dark: #1E1C1A;
+      
+      --color-wood: #8C5835;
+      --color-wood-hover: #724424;
+      --color-wood-light: #F7EFE9;
+      --color-wood-muted: #B38665;
+      --color-gold: #C59B27;
+      
+      --text-main: #1D1F1E;
+      --text-muted: #5C625E;
+      --text-light: #8E9490;
+      --text-on-dark: #F5F3EF;
+      
+      --border-color: #E7DFD5;
+      --border-light: #F0EAE1;
+      
+      --shadow-xs: 0 1px 2px rgba(29, 31, 30, 0.04);
+      --shadow-sm: 0 4px 12px rgba(29, 31, 30, 0.06);
+      --shadow-md: 0 10px 25px -4px rgba(29, 31, 30, 0.08), 0 4px 10px -2px rgba(29, 31, 30, 0.03);
+      --shadow-lg: 0 20px 35px -6px rgba(29, 31, 30, 0.12), 0 8px 16px -4px rgba(29, 31, 30, 0.05);
+      --shadow-warm: 0 15px 30px -5px rgba(140, 88, 53, 0.15);
+
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-xl: 28px;
+      --radius-full: 9999px;
+
+      --transition-fast: 0.2s ease;
+      --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      --transition-slow: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+      
+      --nav-height: 80px;
+      --nav-height-scrolled: 68px;
+    }
+
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--bg-cream);
+      color: var(--text-main);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color var(--transition-fast);
+    }
+
+    button, input, select, textarea {
+      font-family: inherit;
+      font-size: 1rem;
+    }
+
+    /* Container Utility */
+    .container {
+      width: 100%;
+      max-width: 1240px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+
+    .container-wide {
+      width: 100%;
+      max-width: 1360px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+
+    /* Typography */
+    h1, h2, h3, h4, h5 {
+      font-family: var(--font-heading);
+      color: var(--text-main);
+      font-weight: 600;
+      line-height: 1.25;
+    }
+
+    .section-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: var(--color-wood-light);
+      color: var(--color-wood);
+      padding: 0.4rem 1rem;
+      border-radius: var(--radius-full);
+      font-size: 0.825rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      border: 1px solid rgba(140, 88, 53, 0.15);
+    }
+
+    .section-title {
+      font-size: clamp(2rem, 3.5vw, 2.75rem);
+      margin-bottom: 1rem;
+      letter-spacing: -0.01em;
+    }
+
+    .section-subtitle {
+      color: var(--text-muted);
+      font-size: 1.075rem;
+      max-width: 620px;
+      line-height: 1.7;
+    }
+
+    .section-header-center {
+      text-align: center;
+      margin-bottom: 3.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Common Button Styles */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 0.85rem 1.65rem;
+      border-radius: var(--radius-full);
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all var(--transition-normal);
+      text-align: center;
+      white-space: nowrap;
+      text-decoration: none;
+    }
+
+    .btn:focus-visible {
+      outline: 2px solid var(--color-wood);
+      outline-offset: 3px;
+    }
+
+    .btn-primary {
+      background-color: var(--color-wood);
+      color: #FFFFFF;
+      box-shadow: 0 4px 14px rgba(140, 88, 53, 0.28);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--color-wood-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(140, 88, 53, 0.35);
+      color: #FFFFFF;
+    }
+
+    .btn-secondary {
+      background-color: #FFFFFF;
+      color: var(--text-main);
+      border-color: var(--border-color);
+      box-shadow: var(--shadow-xs);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--bg-cream);
+      border-color: var(--color-wood);
+      color: var(--color-wood);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .btn-outline-white {
+      background-color: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(8px);
+      color: #FFFFFF;
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .btn-outline-white:hover {
+      background-color: #FFFFFF;
+      color: var(--text-main);
+      border-color: #FFFFFF;
+      transform: translateY(-2px);
+    }
+
+    .btn-icon-round {
+      width: 44px;
+      height: 44px;
+      padding: 0;
+      border-radius: 50%;
+    }
+
+    /* ==========================================================================
+       TOP ANNOUNCEMENT BAR
+       ========================================================================== */
+    .top-bar {
+      background-color: var(--bg-warm-dark);
+      color: var(--text-on-dark);
+      font-size: 0.8125rem;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      position: relative;
+      z-index: 50;
+    }
+
+    .top-bar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .top-bar-item {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      color: #D3CDC6;
+    }
+
+    .top-bar-item i {
+      color: var(--color-gold);
+      font-size: 0.85rem;
+    }
+
+    .top-bar-item a {
+      color: #FFFFFF;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .top-bar-item a:hover {
+      color: var(--color-wood-muted);
+    }
+
+    .badge-open-live {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      background-color: rgba(34, 197, 94, 0.15);
+      color: #4ade80;
+      padding: 0.15rem 0.6rem;
+      border-radius: var(--radius-full);
+      font-weight: 600;
+      font-size: 0.75rem;
+      border: 1px solid rgba(74, 222, 128, 0.25);
+    }
+
+    .badge-open-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: #4ade80;
+      box-shadow: 0 0 6px #4ade80;
+      animation: pulse-dot 2s infinite ease-in-out;
+    }
+
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.8); }
+    }
+
+    /* ==========================================================================
+       STICKY NAVIGATION BAR
+       ========================================================================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background-color: rgba(250, 247, 242, 0.94);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border-color);
+      transition: height var(--transition-normal), background-color var(--transition-normal), box-shadow var(--transition-normal);
+      height: var(--nav-height);
+      display: flex;
+      align-items: center;
+    }
+
+    .site-header.scrolled {
+      height: var(--nav-height-scrolled);
+      background-color: rgba(255, 255, 255, 0.97);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    /* Brand Logo */
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+    }
+
+    .logo-icon {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, var(--color-wood), #693C1E);
+      color: #FFFFFF;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      box-shadow: 0 4px 10px rgba(140, 88, 53, 0.25);
+      transition: transform var(--transition-normal);
+    }
+
+    .brand-logo:hover .logo-icon {
+      transform: rotate(-5deg) scale(1.04);
+    }
+
+    .logo-text-wrap {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo-title {
+      font-family: var(--font-heading);
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: var(--text-main);
+      line-height: 1.1;
+    }
+
+    .logo-subtitle {
+      font-size: 0.7rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--color-wood);
+      font-weight: 700;
+    }
+
+    /* Desktop Navigation Links */
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      gap: 1.8rem;
+    }
+
+    .nav-link {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--text-main);
+      padding: 0.4rem 0.2rem;
+      position: relative;
+      transition: color var(--transition-fast);
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: var(--color-wood);
+      border-radius: 2px;
+      transition: width var(--transition-normal);
+    }
+
+    .nav-link:hover, .nav-link.active {
+      color: var(--color-wood);
+    }
+
+    .nav-link:hover::after, .nav-link.active::after {
+      width: 100%;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+
+    /* Mobile Hamburger Button */
+    .menu-toggle {
+      display: none;
+      background: transparent;
+      border: 1px solid var(--border-color);
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-sm);
+      color: var(--text-main);
+      cursor: pointer;
+      font-size: 1.25rem;
+      align-items: center;
+      justify-content: center;
+      transition: all var(--transition-fast);
+    }
+
+    .menu-toggle:hover {
+      background-color: var(--color-wood-light);
+      color: var(--color-wood);
+    }
+
+    /* Mobile Drawer */
+    .mobile-drawer {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 100%;
+      max-width: 320px;
+      height: 100vh;
+      background-color: #FFFFFF;
+      z-index: 2000;
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+      transition: right var(--transition-normal);
+      overflow-y: auto;
+    }
+
+    .mobile-drawer.open {
+      right: 0;
+    }
+
+    .drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background-color: rgba(29, 31, 30, 0.45);
+      backdrop-filter: blur(4px);
+      z-index: 1999;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--transition-normal);
+    }
+
+    .drawer-overlay.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .drawer-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .drawer-close {
+      background: transparent;
+      border: none;
+      font-size: 1.35rem;
+      color: var(--text-muted);
+      cursor: pointer;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .drawer-close:hover {
+      background-color: var(--bg-cream);
+      color: var(--text-main);
+    }
+
+    .mobile-nav-links {
+      list-style: none;
+      margin: 1.5rem 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .mobile-nav-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-main);
+      padding: 0.75rem 0.5rem;
+      border-radius: var(--radius-sm);
+      transition: all var(--transition-fast);
+    }
+
+    .mobile-nav-link:hover {
+      background-color: var(--color-wood-light);
+      color: var(--color-wood);
+      padding-left: 0.85rem;
+    }
+
+    .mobile-nav-link i {
+      font-size: 0.8rem;
+      color: var(--text-light);
+    }
+
+    .drawer-footer {
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .drawer-info-row {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .drawer-info-row i {
+      color: var(--color-wood);
+    }
+
+    /* ==========================================================================
+       HERO SECTION
+       ========================================================================== */
+    .hero-section {
+      position: relative;
+      padding: 3.5rem 0 5rem;
+      background: linear-gradient(180deg, var(--bg-cream) 0%, #F5EEE4 100%);
+      overflow: hidden;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      align-items: center;
+      gap: 3.5rem;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-badge-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-badge-rating {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background-color: #FFFFFF;
+      padding: 0.35rem 0.85rem;
+      border-radius: var(--radius-full);
+      font-size: 0.825rem;
+      font-weight: 600;
+      color: var(--text-main);
+      box-shadow: var(--shadow-xs);
+      border: 1px solid var(--border-color);
+    }
+
+    .hero-badge-rating .stars {
+      color: var(--color-gold);
+    }
+
+    .hero-badge-location {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background-color: var(--color-wood-light);
+      color: var(--color-wood);
+      padding: 0.35rem 0.85rem;
+      border-radius: var(--radius-full);
+      font-size: 0.825rem;
+      font-weight: 600;
+      border: 1px solid rgba(140, 88, 53, 0.15);
+    }
+
+    .hero-title {
+      font-size: clamp(2.4rem, 4.5vw, 3.75rem);
+      line-height: 1.12;
+      margin-bottom: 1.25rem;
+      color: var(--text-main);
+    }
+
+    .hero-title span {
+      color: var(--color-wood);
+      font-style: italic;
+    }
+
+    .hero-description {
+      font-size: 1.125rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 2rem;
+      max-width: 540px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .hero-features-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .hero-feature-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    .hero-feature-item i {
+      color: var(--color-wood);
+      font-size: 0.95rem;
+    }
+
+    /* Hero Visual Showcase */
+    .hero-visual-wrapper {
+      position: relative;
+    }
+
+    .hero-main-card {
+      position: relative;
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      border: 6px solid #FFFFFF;
+      background-color: #E6E1D9;
+      aspect-ratio: 4/5;
+      max-height: 540px;
+    }
+
+    .hero-main-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform var(--transition-slow);
+    }
+
+    .hero-visual-wrapper:hover .hero-main-card img {
+      transform: scale(1.03);
+    }
+
+    /* Floating Showcase Badge */
+    .hero-floating-card {
+      position: absolute;
+      bottom: -20px;
+      left: -25px;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(12px);
+      padding: 1.15rem 1.35rem;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-warm);
+      border: 1px solid var(--border-light);
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      max-width: 270px;
+      z-index: 3;
+      animation: float-badge 4s ease-in-out infinite;
+    }
+
+    @keyframes float-badge {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    .floating-card-icon {
+      width: 44px;
+      height: 44px;
+      background-color: var(--color-wood-light);
+      color: var(--color-wood);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      flex-shrink: 0;
+    }
+
+    .floating-card-title {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.2;
+    }
+
+    .floating-card-sub {
+      font-size: 0.775rem;
+      color: var(--text-muted);
+      margin-top: 0.15rem;
+    }
+
+    .hero-decorative-dot {
+      position: absolute;
+      top: -30px;
+      right: -30px;
+      width: 180px;
+      height: 180px;
+      background: radial-gradient(circle, rgba(140, 88, 53, 0.12) 0%, transparent 70%);
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    /* ==========================================================================
+       ABOUT SECTION
+       ========================================================================== */
+    .about-section {
+      padding: 6rem 0;
+      background-color: var(--bg-surface);
+      position: relative;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 0.95fr 1.05fr;
+      align-items: center;
+      gap: 4rem;
+    }
+
+    .about-images-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+      position: relative;
+    }
+
+    .about-img-box {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      position: relative;
+    }
+
+    .about-img-box img {
+      width: 100%;
+      height: 100%;
+      min-height: 220px;
+      object-fit: cover;
+      transition: transform var(--transition-slow);
+    }
+
+    .about-img-box:hover img {
+      transform: scale(1.04);
+    }
+
+    .about-img-box-offset {
+      transform: translateY(2rem);
+    }
+
+    .about-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .about-text {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+      margin-bottom: 2rem;
+    }
+
+    .about-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      margin-top: 1rem;
+    }
+
+    .stat-card {
+      background-color: var(--bg-cream);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1.35rem 1rem;
+      text-align: center;
+      transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+    }
+
+    .stat-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-sm);
+      border-color: var(--color-wood-muted);
+    }
+
+    .stat-number {
+      font-family: var(--font-heading);
+      font-size: 1.85rem;
+      font-weight: 700;
+      color: var(--color-wood);
+      line-height: 1.1;
+      margin-bottom: 0.35rem;
+    }
+
+    .stat-label {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    /* ==========================================================================
+       FURNITURE CATEGORIES
+       ========================================================================== */
+    .categories-section {
+      padding: 6rem 0;
+      background-color: var(--bg-cream);
+    }
+
+    .categories-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+
+    .category-card {
+      background-color: var(--bg-surface);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      transition: all var(--transition-normal);
+      position: relative;
+    }
+
+    .category-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--color-wood-muted);
+    }
+
+    .category-image-wrap {
+      position: relative;
+      aspect-ratio: 16/10;
+      overflow: hidden;
+      background-color: #EDE8E0;
+    }
+
+    .category-image-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform var(--transition-slow);
+    }
+
+    .category-card:hover .category-image-wrap img {
+      transform: scale(1.06);
+    }
+
+    .category-body {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .category-title {
+      font-size: 1.35rem;
+      margin-bottom: 0.5rem;
+      color: var(--text-main);
+    }
+
+    .category-description {
+      font-size: 0.925rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 1.25rem;
+      flex-grow: 1;
+    }
+
+    .category-explore-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: var(--color-wood);
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+      transition: gap var(--transition-fast);
+    }
+
+    .category-card:hover .category-explore-btn {
+      gap: 0.75rem;
+      color: var(--color-wood-hover);
+    }
+
+    /* ==========================================================================
+       FEATURED FURNITURE (STYLE INSPIRATION)
+       ========================================================================== */
+    .featured-section {
+      padding: 6rem 0;
+      background-color: var(--bg-surface);
+      position: relative;
+    }
+
+    .inspiration-banner {
+      background-color: var(--color-wood-light);
+      border-left: 4px solid var(--color-wood);
+      padding: 1rem 1.25rem;
+      border-radius: var(--radius-sm);
+      margin-bottom: 2.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.9rem;
+      color: #613B20;
+    }
+
+    .inspiration-banner i {
+      font-size: 1.1rem;
+      color: var(--color-wood);
+    }
+
+    .featured-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.75rem;
+    }
+
+    .featured-card {
+      background-color: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-xs);
+      transition: all var(--transition-normal);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .featured-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--color-wood-muted);
+    }
+
+    .featured-media {
+      position: relative;
+      aspect-ratio: 1/1;
+      overflow: hidden;
+      background-color: #F1ECE6;
+    }
+
+    .featured-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform var(--transition-slow);
+    }
+
+    .featured-card:hover .featured-media img {
+      transform: scale(1.06);
+    }
+
+    .featured-tag {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(6px);
+      color: var(--text-main);
+      padding: 0.25rem 0.65rem;
+      border-radius: var(--radius-full);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .featured-content {
+      padding: 1.35rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .featured-category-name {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--color-wood);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.35rem;
+    }
+
+    .featured-title {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 0.45rem;
+    }
+
+    .featured-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+      margin-bottom: 1.25rem;
+      flex-grow: 1;
+    }
+
+    .featured-action-btn {
+      width: 100%;
+      background-color: var(--bg-cream);
+      color: var(--color-wood);
+      border: 1px solid var(--border-color);
+      padding: 0.65rem 1rem;
+      border-radius: var(--radius-full);
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.45rem;
+      transition: all var(--transition-fast);
+    }
+
+    .featured-action-btn:hover {
+      background-color: var(--color-wood);
+      color: #FFFFFF;
+      border-color: var(--color-wood);
+    }
+
+    /* ==========================================================================
+       WHY CHOOSE US
+       ========================================================================== */
+    .why-section {
+      padding: 6rem 0;
+      background-color: var(--bg-warm-tint);
+    }
+
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.75rem;
+    }
+
+    .why-card {
+      background-color: #FFFFFF;
+      padding: 2.25rem 1.75rem;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+      transition: all var(--transition-normal);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .why-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--color-wood);
+    }
+
+    .why-icon-box {
+      width: 56px;
+      height: 56px;
+      background-color: var(--color-wood-light);
+      color: var(--color-wood);
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      margin-bottom: 1.25rem;
+      transition: transform var(--transition-normal);
+    }
+
+    .why-card:hover .why-icon-box {
+      transform: scale(1.08) rotate(3deg);
+      background-color: var(--color-wood);
+      color: #FFFFFF;
+    }
+
+    .why-card-title {
+      font-size: 1.2rem;
+      margin-bottom: 0.65rem;
+      color: var(--text-main);
+    }
+
+    .why-card-desc {
+      font-size: 0.925rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* ==========================================================================
+       SHOWROOM / LOCATION SECTION
+       ========================================================================== */
+    .showroom-section {
+      padding: 6rem 0;
+      background-color: var(--bg-surface);
+    }
+
+    .showroom-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: stretch;
+    }
+
+    .showroom-info-box {
+      background-color: var(--bg-cream);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-xl);
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .showroom-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background-color: #FFFFFF;
+      padding: 0.35rem 0.85rem;
+      border-radius: var(--radius-full);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-main);
+      box-shadow: var(--shadow-xs);
+      margin-bottom: 1.25rem;
+      width: fit-content;
+      border: 1px solid var(--border-color);
+    }
+
+    .showroom-title {
+      font-size: 2.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .showroom-details-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin: 1.75rem 0 2.25rem;
+    }
+
+    .detail-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.1rem;
+    }
+
+    .detail-icon {
+      width: 44px;
+      height: 44px;
+      background-color: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-wood);
+      font-size: 1.15rem;
+      flex-shrink: 0;
+    }
+
+    .detail-label {
+      font-size: 0.775rem;
+      font-weight: 700;
+      color: var(--text-light);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.2rem;
+    }
+
+    .detail-val {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-main);
+      line-height: 1.4;
+    }
+
+    .showroom-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    /* Interactive Map Card */
+    .map-preview-card {
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--border-color);
+      position: relative;
+      background-color: #E8E2D9;
+      display: flex;
+      flex-direction: column;
+      min-height: 440px;
+    }
+
+    .map-iframe-container {
+      width: 100%;
+      height: 100%;
+      flex-grow: 1;
+      min-height: 380px;
+      position: relative;
+    }
+
+    .map-iframe-container iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .map-floating-overlay {
+      position: absolute;
+      top: 1.25rem;
+      left: 1.25rem;
+      right: 1.25rem;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      padding: 1rem 1.25rem;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      z-index: 10;
+      border: 1px solid var(--border-light);
+    }
+
+    .map-overlay-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--text-main);
+    }
+
+    .map-overlay-sub {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* ==========================================================================
+       CONTACT & WHATSAPP ENQUIRY SECTION
+       ========================================================================== */
+    .enquiry-section {
+      padding: 6rem 0;
+      background: linear-gradient(180deg, var(--bg-cream) 0%, #EFE7DC 100%);
+    }
+
+    .enquiry-wrapper {
+      background-color: #FFFFFF;
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--border-color);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+    }
+
+    .enquiry-sidebar {
+      background-color: var(--bg-warm-dark);
+      color: var(--text-on-dark);
+      padding: 3.5rem 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .enquiry-sidebar::before {
+      content: '';
+      position: absolute;
+      bottom: -40px;
+      right: -40px;
+      width: 220px;
+      height: 220px;
+      background: radial-gradient(circle, rgba(140, 88, 53, 0.25) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+
+    .enquiry-sidebar-title {
+      color: #FFFFFF;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .enquiry-sidebar-text {
+      color: #CFC6BE;
+      font-size: 0.975rem;
+      line-height: 1.7;
+      margin-bottom: 2rem;
+    }
+
+    .contact-quick-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    .contact-quick-item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .quick-icon {
+      width: 44px;
+      height: 44px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-gold);
+      font-size: 1.15rem;
+    }
+
+    .quick-label {
+      font-size: 0.775rem;
+      color: #A8A199;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .quick-val {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #FFFFFF;
+    }
+
+    .enquiry-form-container {
+      padding: 3.5rem 3rem;
+    }
+
+    .form-heading {
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+      color: var(--text-main);
+    }
+
+    .form-subtext {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+    }
+
+    .form-group {
+      margin-bottom: 1.4rem;
+    }
+
+    .form-label {
+      display: block;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 0.4rem;
+    }
+
+    .form-input, .form-select, .form-textarea {
+      width: 100%;
+      padding: 0.85rem 1.1rem;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      background-color: var(--bg-cream);
+      color: var(--text-main);
+      font-size: 0.95rem;
+      transition: all var(--transition-fast);
+      outline: none;
+    }
+
+    .form-input:focus, .form-select:focus, .form-textarea:focus {
+      border-color: var(--color-wood);
+      background-color: #FFFFFF;
+      box-shadow: 0 0 0 3px rgba(140, 88, 53, 0.12);
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+
+    .form-note {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.75rem;
+    }
+
+    .form-note i {
+      color: #25D366;
+    }
+
+    /* ==========================================================================
+       FOOTER
+       ========================================================================== */
+    .site-footer {
+      background-color: var(--bg-warm-dark);
+      color: #D3CDC6;
+      padding: 5rem 0 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.9fr 1fr;
+      gap: 4rem;
+      margin-bottom: 4rem;
+    }
+
+    .footer-brand .brand-logo .logo-title {
+      color: #FFFFFF;
+    }
+
+    .footer-desc {
+      color: #A9A29A;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      margin: 1.25rem 0 1.5rem;
+      max-width: 360px;
+    }
+
+    .footer-heading {
+      font-family: var(--font-heading);
+      font-size: 1.2rem;
+      color: #FFFFFF;
+      margin-bottom: 1.25rem;
+    }
+
+    .footer-links-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .footer-link {
+      color: #A9A29A;
+      font-size: 0.925rem;
+      transition: all var(--transition-fast);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .footer-link:hover {
+      color: #FFFFFF;
+      transform: translateX(3px);
+    }
+
+    .footer-contact-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .footer-contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      font-size: 0.9rem;
+      color: #A9A29A;
+      line-height: 1.5;
+    }
+
+    .footer-contact-item i {
+      color: var(--color-wood-muted);
+      margin-top: 0.2rem;
+      font-size: 1rem;
+    }
+
+    .footer-contact-item a {
+      color: #D3CDC6;
+    }
+
+    .footer-contact-item a:hover {
+      color: #FFFFFF;
+    }
+
+    .footer-bottom {
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.85rem;
+      color: #8C857D;
+    }
+
+    .footer-bottom a {
+      color: #B3ABA2;
+    }
+
+    .footer-bottom a:hover {
+      color: #FFFFFF;
+    }
+
+    /* ==========================================================================
+       FLOATING QUICK ACTIONS & BACK TO TOP
+       ========================================================================== */
+    .floating-buttons-bar {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      z-index: 990;
+    }
+
+    .float-btn {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      border: none;
+      font-size: 1.25rem;
+      transition: all var(--transition-normal);
+      text-decoration: none;
+    }
+
+    .float-btn-whatsapp {
+      background-color: #25D366;
+    }
+
+    .float-btn-whatsapp:hover {
+      transform: scale(1.1) translateY(-3px);
+      box-shadow: 0 10px 22px rgba(37, 211, 102, 0.4);
+    }
+
+    .float-btn-top {
+      background-color: var(--text-main);
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(10px);
+    }
+
+    .float-btn-top.visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .float-btn-top:hover {
+      background-color: var(--color-wood);
+      transform: translateY(-3px);
+    }
+
+    /* ==========================================================================
+       ANIMATIONS & SCROLL REVEAL
+       ========================================================================== */
+    .reveal-on-scroll {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1), transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+      will-change: opacity, transform;
+    }
+
+    .reveal-on-scroll.revealed {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Stagger helper delays */
+    .delay-1 { transition-delay: 0.1s; }
+    .delay-2 { transition-delay: 0.2s; }
+    .delay-3 { transition-delay: 0.3s; }
+    .delay-4 { transition-delay: 0.4s; }
+
+    /* ==========================================================================
+       RESPONSIVE DESIGN (MEDIA QUERIES)
+       ========================================================================== */
+    @media (max-width: 1100px) {
+      .featured-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .why-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 992px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        text-align: center;
+      }
+      
+      .hero-badge-group {
+        justify-content: center;
+      }
+
+      .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .hero-actions {
+        justify-content: center;
+      }
+
+      .hero-features-list {
+        justify-content: center;
+      }
+
+      .hero-main-card {
+        max-width: 520px;
+        margin: 0 auto;
+        aspect-ratio: 16/11;
+      }
+
+      .hero-floating-card {
+        left: 20px;
+        bottom: -15px;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 3.5rem;
+      }
+
+      .about-images-grid {
+        max-width: 540px;
+        margin: 0 auto;
+      }
+
+      .showroom-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .enquiry-wrapper {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+      }
+
+      .footer-brand {
+        grid-column: span 2;
+      }
+
+      .nav-menu {
+        display: none;
+      }
+
+      .menu-toggle {
+        display: inline-flex;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .top-bar {
+        display: none;
+      }
+
+      .section-title {
+        font-size: 2rem;
+      }
+
+      .categories-grid {
+        grid-template-columns: 1fr;
+        max-width: 440px;
+        margin: 0 auto;
+      }
+
+      .featured-grid {
+        grid-template-columns: 1fr;
+        max-width: 440px;
+        margin: 0 auto;
+      }
+
+      .why-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .about-stats-grid {
+        grid-template-columns: 1fr;
+        gap: 0.85rem;
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+
+      .enquiry-form-container {
+        padding: 2rem 1.5rem;
+      }
+
+      .enquiry-sidebar {
+        padding: 2.25rem 1.5rem;
+      }
+
+      .showroom-info-box {
+        padding: 2rem 1.5rem;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+
+      .footer-brand {
+        grid-column: span 1;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.75rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero-actions {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .hero-actions .btn {
+        width: 100%;
+      }
+
+      .showroom-actions {
+        flex-direction: column;
+      }
+
+      .showroom-actions .btn {
+        width: 100%;
+      }
+
+      .hero-floating-card {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        margin-top: 1rem;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       TOP ANNOUNCEMENT BAR
+       ========================================================================== -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-inner">
+        <div class="top-bar-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Main Road Kakanipark Center, Vuyyuru, Andhra Pradesh 521165</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+          <div class="top-bar-item">
+            <i class="fa-regular fa-clock"></i>
+            <span>Every day: 9:00 AM – 9:00 PM</span>
+          </div>
+          <div class="badge-open-live" id="liveStatusBadge">
+            <span class="badge-open-dot"></span>
+            <span id="liveStatusText">Open Today</span>
+          </div>
+          <div class="top-bar-item">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:09059105786">090591 05786</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       STICKY HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo" aria-label="Hafeez Furniture Home">
+        <div class="logo-icon">
+          <i class="fa-solid fa-couch"></i>
+        </div>
+        <div class="logo-text-wrap">
+          <span class="logo-title">HAFEEZ</span>
+          <span class="logo-subtitle">FURNITURE</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#categories" class="nav-link">Categories</a></li>
+          <li><a href="#collection" class="nav-link">Collection</a></li>
+          <li><a href="#why-us" class="nav-link">Why Us</a></li>
+          <li><a href="#visit" class="nav-link">Visit Us</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Action & Mobile Toggle -->
+      <div class="nav-actions">
+        <a href="tel:09059105786" class="btn btn-primary" style="padding: 0.65rem 1.25rem; font-size: 0.875rem;">
+          <i class="fa-solid fa-phone"></i>
+          <span>Call Now</span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open Navigation Menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation">
+    <div>
+      <div class="drawer-header">
+        <div class="brand-logo">
+          <div class="logo-icon" style="width: 36px; height: 36px; font-size: 1rem;">
+            <i class="fa-solid fa-couch"></i>
+          </div>
+          <span class="logo-title" style="font-size: 1.15rem;">HAFEEZ FURNITURE</span>
+        </div>
+        <button class="drawer-close" id="drawerClose" aria-label="Close Navigation Menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="#home" class="mobile-nav-link"><span>Home</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+        <li><a href="#about" class="mobile-nav-link"><span>About</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+        <li><a href="#categories" class="mobile-nav-link"><span>Categories</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+        <li><a href="#collection" class="mobile-nav-link"><span>Collection</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+        <li><a href="#why-us" class="mobile-nav-link"><span>Why Us</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+        <li><a href="#visit" class="mobile-nav-link"><span>Visit Showroom</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+        <li><a href="#contact" class="mobile-nav-link"><span>Contact / Enquiry</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+      </ul>
+    </div>
+    <div class="drawer-footer">
+      <div class="drawer-info-row">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Kakanipark Center, Vuyyuru</span>
+      </div>
+      <div class="drawer-info-row">
+        <i class="fa-regular fa-clock"></i>
+        <span>Every day: 9:00 AM – 9:00 PM</span>
+      </div>
+      <a href="tel:09059105786" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">
+        <i class="fa-solid fa-phone"></i>
+        <span>Call Store: 090591 05786</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section class="hero-section" id="home">
+    <div class="container hero-grid">
+      <!-- Left Hero Content -->
+      <div class="hero-content reveal-on-scroll">
+        <div class="hero-badge-group">
+          <div class="hero-badge-rating">
+            <span class="stars"><i class="fa-solid fa-star"></i> 4.3</span>
+            <span>Rated (26 Reviews)</span>
+          </div>
+          <div class="hero-badge-location">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Vuyyuru, Andhra Pradesh</span>
+          </div>
+        </div>
+
+        <h1 class="hero-title">
+          Furniture That Makes<br>
+          Your House Feel <span>Like Home</span>
+        </h1>
+
+        <p class="hero-description">
+          Discover stylish, comfortable and timeless furniture for every room of your home at Hafeez Furniture, Vuyyuru.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#collection" class="btn btn-primary">
+            <span>Explore Collection</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="tel:09059105786" class="btn btn-secondary">
+            <i class="fa-solid fa-phone"></i>
+            <span>Call Now</span>
+          </a>
+        </div>
+
+        <div class="hero-features-list">
+          <div class="hero-feature-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Local Showroom in Vuyyuru</span>
+          </div>
+          <div class="hero-feature-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Open Every Day 9 AM – 9 PM</span>
+          </div>
+          <div class="hero-feature-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Direct Store Enquiries</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Hero Visual Showcase -->
+      <div class="hero-visual-wrapper reveal-on-scroll delay-2">
+        <div class="hero-decorative-dot"></div>
+        <div class="hero-main-card">
+          <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80" 
+               alt="Modern living room interior furniture display showcasing sofas and wooden table" 
+               fetchpriority="high" />
+        </div>
+        <div class="hero-floating-card">
+          <div class="floating-card-icon">
+            <i class="fa-solid fa-store"></i>
+          </div>
+          <div>
+            <div class="floating-card-title">Hafeez Furniture</div>
+            <div class="floating-card-sub">Main Road Kakanipark Center</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ABOUT THE SHOP
+       ========================================================================== -->
+  <section class="about-section" id="about">
+    <div class="container about-grid">
+      <!-- Left Visual Grid -->
+      <div class="about-images-grid reveal-on-scroll">
+        <div class="about-img-box">
+          <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80" 
+               alt="Comfortable elegant living room sofa and wooden interior" 
+               loading="lazy" />
+        </div>
+        <div class="about-img-box about-img-box-offset">
+          <img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80" 
+               onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1540518614846-7ede433c4ef2?auto=format&fit=crop&w=800&q=80';"
+               alt="Cozy wooden bedroom set and aesthetic home lighting" 
+               loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Right Text Content -->
+      <div class="about-content reveal-on-scroll delay-2">
+        <span class="section-tag">
+          <i class="fa-solid fa-house-chimney"></i> About Our Store
+        </span>
+        <h2 class="section-title">
+          Furniture for Every Corner of Your Home
+        </h2>
+        <p class="about-text">
+          Hafeez Furniture is a local furniture store serving customers in Vuyyuru and surrounding areas. Explore furniture designed to bring comfort, functionality and style into your home.
+        </p>
+
+        <!-- Information Cards -->
+        <div class="about-stats-grid">
+          <div class="stat-card">
+            <div class="stat-number">4.3★</div>
+            <div class="stat-label">Customer Rating</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">26+</div>
+            <div class="stat-label">Reviews</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size: 1.45rem;">9 AM – 9 PM</div>
+            <div class="stat-label">Open Every Day</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FURNITURE CATEGORIES
+       ========================================================================== -->
+  <section class="categories-section" id="categories">
+    <div class="container">
+      <div class="section-header-center reveal-on-scroll">
+        <span class="section-tag">
+          <i class="fa-solid fa-shapes"></i> Furniture Categories
+        </span>
+        <h2 class="section-title">Explore Our Furniture Range</h2>
+        <p class="section-subtitle">
+          Find the right furniture pieces to match your personal style and household needs.
+        </p>
+      </div>
+
+      <div class="categories-grid">
+        <!-- Category 1: Living Room -->
+        <div class="category-card reveal-on-scroll">
+          <div class="category-image-wrap">
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80" 
+                 alt="Living room furniture sofa and coffee table" 
+                 loading="lazy" />
+          </div>
+          <div class="category-body">
+            <h3 class="category-title">Living Room</h3>
+            <p class="category-description">
+              Sofas, seating and centrepieces designed for comfortable living.
+            </p>
+            <a href="#collection" class="category-explore-btn">
+              <span>Explore Living Styles</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Category 2: Bedroom -->
+        <div class="category-card reveal-on-scroll delay-1">
+          <div class="category-image-wrap">
+            <img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80" 
+                 onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1540518614846-7ede433c4ef2?auto=format&fit=crop&w=800&q=80';"
+                 alt="Bedroom furniture bed and wooden nightstand" 
+                 loading="lazy" />
+          </div>
+          <div class="category-body">
+            <h3 class="category-title">Bedroom</h3>
+            <p class="category-description">
+              Beds, headboards and storage pieces designed for a relaxing sleep space.
+            </p>
+            <a href="#collection" class="category-explore-btn">
+              <span>Explore Bedroom Styles</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Category 3: Dining Room -->
+        <div class="category-card reveal-on-scroll delay-2">
+          <div class="category-image-wrap">
+            <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=800&q=80" 
+                 alt="Dining room table and chairs set" 
+                 loading="lazy" />
+          </div>
+          <div class="category-body">
+            <h3 class="category-title">Dining Room</h3>
+            <p class="category-description">
+              Dining tables and chairs built for everyday family meals and gatherings.
+            </p>
+            <a href="#collection" class="category-explore-btn">
+              <span>Explore Dining Styles</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Category 4: Storage -->
+        <div class="category-card reveal-on-scroll">
+          <div class="category-image-wrap">
+            <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80" 
+                 alt="Wooden storage cabinet and wardrobes" 
+                 loading="lazy" />
+          </div>
+          <div class="category-body">
+            <h3 class="category-title">Storage</h3>
+            <p class="category-description">
+              Wardrobes, cabinets and shelves to keep your household organized.
+            </p>
+            <a href="#collection" class="category-explore-btn">
+              <span>Explore Storage Styles</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Category 5: Home Furniture -->
+        <div class="category-card reveal-on-scroll delay-1">
+          <div class="category-image-wrap">
+            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80" 
+                 alt="Home furniture lounge chair and wooden decor" 
+                 loading="lazy" />
+          </div>
+          <div class="category-body">
+            <h3 class="category-title">Home Furniture</h3>
+            <p class="category-description">
+              Lounge chairs, side tables and accent furniture for everyday comfort.
+            </p>
+            <a href="#collection" class="category-explore-btn">
+              <span>Explore Home Styles</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Category 6: Office Furniture -->
+        <div class="category-card reveal-on-scroll delay-2">
+          <div class="category-image-wrap">
+            <img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=800&q=80" 
+                 alt="Office furniture study desk and chair" 
+                 loading="lazy" />
+          </div>
+          <div class="category-body">
+            <h3 class="category-title">Office Furniture</h3>
+            <p class="category-description">
+              Study tables, desks and practical seating for productive work corners.
+            </p>
+            <a href="#collection" class="category-explore-btn">
+              <span>Explore Office Styles</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FEATURED FURNITURE (STYLE INSPIRATION)
+       ========================================================================== -->
+  <section class="featured-section" id="collection">
+    <div class="container">
+      <div class="section-header-center reveal-on-scroll">
+        <span class="section-tag">
+          <i class="fa-solid fa-gem"></i> Style Inspiration
+        </span>
+        <h2 class="section-title">Featured Styles</h2>
+        <p class="section-subtitle">
+          Browse visual style ideas and enquire with our store regarding available furniture items.
+        </p>
+      </div>
+
+      <!-- Informational Disclaimer Banner -->
+      <div class="inspiration-banner reveal-on-scroll">
+        <i class="fa-solid fa-circle-info"></i>
+        <span><strong>Note:</strong> Displayed imagery represents design styles and inspiration. Visit our showroom or contact us directly to explore in-store options.</span>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="featured-grid">
+        <!-- Item 1: Modern Sofa -->
+        <div class="featured-card reveal-on-scroll">
+          <div class="featured-media">
+            <span class="featured-tag">Living Room</span>
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80" 
+                 alt="Modern plush living room sofa design" 
+                 loading="lazy" />
+          </div>
+          <div class="featured-content">
+            <div class="featured-category-name">Sofa Seating</div>
+            <h3 class="featured-title">Modern Sofa</h3>
+            <p class="featured-desc">Comfortable upholstered sofa styling suitable for contemporary living rooms.</p>
+            <button class="featured-action-btn" onclick="prefillEnquiry('Modern Sofa')">
+              <i class="fa-solid fa-comment-dots"></i>
+              <span>Enquire Now</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 2: Classic Wooden Bed -->
+        <div class="featured-card reveal-on-scroll delay-1">
+          <div class="featured-media">
+            <span class="featured-tag">Bedroom</span>
+            <img src="https://images.unsplash.com/photo-1540518614846-7ede433c4ef2?auto=format&fit=crop&w=800&q=80" 
+                 onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80';"
+                 alt="Classic wooden bed frame and cozy bedding" 
+                 loading="lazy" />
+          </div>
+          <div class="featured-content">
+            <div class="featured-category-name">Bed Frames</div>
+            <h3 class="featured-title">Classic Wooden Bed</h3>
+            <p class="featured-desc">Sturdy wooden frame aesthetic designed for durability and peaceful sleep.</p>
+            <button class="featured-action-btn" onclick="prefillEnquiry('Classic Wooden Bed')">
+              <i class="fa-solid fa-comment-dots"></i>
+              <span>Enquire Now</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 3: Contemporary Dining Set -->
+        <div class="featured-card reveal-on-scroll delay-2">
+          <div class="featured-media">
+            <span class="featured-tag">Dining</span>
+            <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=800&q=80" 
+                 alt="Contemporary wooden dining table and seating chairs" 
+                 loading="lazy" />
+          </div>
+          <div class="featured-content">
+            <div class="featured-category-name">Dining Tables</div>
+            <h3 class="featured-title">Contemporary Dining Set</h3>
+            <p class="featured-desc">Spacious dining setup designed for daily dining and family gatherings.</p>
+            <button class="featured-action-btn" onclick="prefillEnquiry('Contemporary Dining Set')">
+              <i class="fa-solid fa-comment-dots"></i>
+              <span>Enquire Now</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 4: Elegant Wardrobe -->
+        <div class="featured-card reveal-on-scroll delay-3">
+          <div class="featured-media">
+            <span class="featured-tag">Storage</span>
+            <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80" 
+                 alt="Elegant wooden wardrobe and storage closet" 
+                 loading="lazy" />
+          </div>
+          <div class="featured-content">
+            <div class="featured-category-name">Storage & Organization</div>
+            <h3 class="featured-title">Elegant Wardrobe</h3>
+            <p class="featured-desc">Clean cabinet and wardrobe design for organizing clothing and essentials.</p>
+            <button class="featured-action-btn" onclick="prefillEnquiry('Elegant Wardrobe')">
+              <i class="fa-solid fa-comment-dots"></i>
+              <span>Enquire Now</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 5: Wooden Coffee Table -->
+        <div class="featured-card reveal-on-scroll">
+          <div class="featured-media">
+            <span class="featured-tag">Living Room</span>
+            <img src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=800&q=80" 
+                 alt="Wooden coffee table for living room" 
+                 loading="lazy" />
+          </div>
+          <div class="featured-content">
+            <div class="featured-category-name">Tables & Accents</div>
+            <h3 class="featured-title">Wooden Coffee Table</h3>
+            <p class="featured-desc">Functional centrepiece table with natural wood textures for your lounge area.</p>
+            <button class="featured-action-btn" onclick="prefillEnquiry('Wooden Coffee Table')">
+              <i class="fa-solid fa-comment-dots"></i>
+              <span>Enquire Now</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 6: Modern Lounge Chair -->
+        <div class="featured-card reveal-on-scroll delay-1">
+          <div class="featured-media">
+            <span class="featured-tag">Seating</span>
+            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80" 
+                 alt="Modern comfortable lounge armchair" 
+                 loading="lazy" />
+          </div>
+          <div class="featured-content">
+            <div class="featured-category-name">Chairs & Loungers</div>
+            <h3 class="featured-title">Modern Lounge Chair</h3>
+            <p class="featured-desc">Ergonomic accent armchair designed for reading corners and relaxation.</p>
+            <button class="featured-action-btn" onclick="prefillEnquiry('Modern Lounge Chair')">
+              <i class="fa-solid fa-comment-dots"></i>
+              <span>Enquire Now</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 7: Storage Cabinet -->
+        <div class="featured-card reveal-on-scroll delay-2">
+          <div class="featured-media">
+            <span class="featured-tag">Storage</span>
+            <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=800&q=80" 
+                 alt="Wooden storage sideboard cabinet" 
+                 loading="lazy" />
+          </div>
+          <div class="featured-content">
+            <div class="featured-category-name">Sideboards</div>
+            <h3 class="featured-title">Storage Cabinet</h3>
+            <p class="featured-desc">Compact multi-purpose storage sideboard for living rooms and entryways.</p>
+            <button class="featured-action-btn" onclick="prefillEnquiry('Storage Cabinet')">
+              <i class="fa-solid fa-comment-dots"></i>
+              <span>Enquire Now</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Item 8: Premium Bedroom Set -->
+        <div class="featured-card reveal-on-scroll delay-3">
+          <div class="featured-media">
+            <span class="featured-tag">Bedroom</span>
+            <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80" 
+                 onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80';"
+                 alt="Warm aesthetic bedroom interior setup" 
+                 loading="lazy" />
+          </div>
+          <div class="featured-content">
+            <div class="featured-category-name">Complete Sets</div>
+            <h3 class="featured-title">Premium Bedroom Set</h3>
+            <p class="featured-desc">Harmonious bedroom furniture concept offering balanced warmth and utility.</p>
+            <button class="featured-action-btn" onclick="prefillEnquiry('Premium Bedroom Set')">
+              <i class="fa-solid fa-comment-dots"></i>
+              <span>Enquire Now</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       WHY CHOOSE US
+       ========================================================================== -->
+  <section class="why-section" id="why-us">
+    <div class="container">
+      <div class="section-header-center reveal-on-scroll">
+        <span class="section-tag">
+          <i class="fa-solid fa-shield-halved"></i> Why Hafeez Furniture
+        </span>
+        <h2 class="section-title">Why Choose Us</h2>
+        <p class="section-subtitle">
+          Dedicated to helping customers in Vuyyuru find comfortable and dependable furniture for their homes.
+        </p>
+      </div>
+
+      <div class="why-grid">
+        <!-- Card 1 -->
+        <div class="why-card reveal-on-scroll">
+          <div class="why-icon-box">
+            <i class="fa-solid fa-medal"></i>
+          </div>
+          <h3 class="why-card-title">Quality-focused selection</h3>
+          <p class="why-card-desc">
+            Explore furniture styles selected for everyday comfort and practical living.
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="why-card reveal-on-scroll delay-1">
+          <div class="why-icon-box">
+            <i class="fa-solid fa-couch"></i>
+          </div>
+          <h3 class="why-card-title">Wide Range</h3>
+          <p class="why-card-desc">
+            Furniture ideas for living rooms, bedrooms, dining spaces and more.
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="why-card reveal-on-scroll delay-2">
+          <div class="why-icon-box">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <h3 class="why-card-title">Local Showroom</h3>
+          <p class="why-card-desc">
+            Visit us at our showroom in Vuyyuru to see designs in person.
+          </p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="why-card reveal-on-scroll delay-3">
+          <div class="why-icon-box">
+            <i class="fa-solid fa-phone-volume"></i>
+          </div>
+          <h3 class="why-card-title">Easy Enquiry</h3>
+          <p class="why-card-desc">
+            Call the store directly to ask about furniture and availability.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SHOWROOM / LOCATION SECTION
+       ========================================================================== -->
+  <section class="showroom-section" id="visit">
+    <div class="container">
+      <div class="showroom-grid">
+        <!-- Left Showroom Info -->
+        <div class="showroom-info-box reveal-on-scroll">
+          <div>
+            <div class="showroom-badge">
+              <i class="fa-solid fa-star" style="color: var(--color-gold);"></i>
+              <span>4.3 / 5 Rating • 26 Reviews</span>
+            </div>
+            
+            <h2 class="showroom-title">Visit Hafeez Furniture</h2>
+            <p style="color: var(--text-muted); font-size: 1.05rem;">
+              Experience friendly service and explore furniture options right in the heart of Vuyyuru.
+            </p>
+
+            <div class="showroom-details-list">
+              <!-- Address -->
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <div class="detail-label">Store Address</div>
+                  <div class="detail-val">
+                    Hafeez Furniture<br>
+                    Main Road Kakanipark Center<br>
+                    Vuyyuru, Andhra Pradesh 521165
+                  </div>
+                  <div style="font-size: 0.8rem; color: var(--text-light); margin-top: 0.25rem;">
+                    Plus Code: <strong>9R6W+VH, Vuyyuru</strong>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                  <div class="detail-label">Direct Phone</div>
+                  <div class="detail-val">
+                    <a href="tel:09059105786" style="color: var(--color-wood);">090591 05786</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Hours -->
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="fa-regular fa-clock"></i>
+                </div>
+                <div>
+                  <div class="detail-label">Business Hours</div>
+                  <div class="detail-val">Every Day: 9:00 AM – 9:00 PM</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Showroom Action Buttons -->
+          <div class="showroom-actions">
+            <a href="https://www.google.com/maps/search/?api=1&query=Hafeez+Furniture+Main+Road+Kakanipark+Center+Vuyyuru+Andhra+Pradesh+521165" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-primary">
+              <i class="fa-solid fa-diamond-turn-right"></i>
+              <span>Get Directions</span>
+            </a>
+            <a href="tel:09059105786" class="btn btn-secondary">
+              <i class="fa-solid fa-phone"></i>
+              <span>Call Now</span>
+            </a>
+            <button class="btn btn-secondary" onclick="shareStoreLocation()" title="Share Location">
+              <i class="fa-solid fa-share-nodes"></i>
+              <span>Share Location</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Map Preview Card -->
+        <div class="map-preview-card reveal-on-scroll delay-1">
+          <div class="map-floating-overlay">
+            <div>
+              <div class="map-overlay-title">Hafeez Furniture</div>
+              <div class="map-overlay-sub">Main Road Kakanipark Center, Vuyyuru</div>
+            </div>
+            <a href="https://www.google.com/maps/search/?api=1&query=Hafeez+Furniture+Main+Road+Kakanipark+Center+Vuyyuru+Andhra+Pradesh+521165" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-primary btn-icon-round"
+               aria-label="Open in Google Maps">
+              <i class="fa-solid fa-location-arrow"></i>
+            </a>
+          </div>
+
+          <div class="map-iframe-container">
+            <iframe 
+              title="Google Maps Location of Hafeez Furniture Vuyyuru"
+              src="https://maps.google.com/maps?q=Hafeez+Furniture,+Main+Road+Kakanipark+Center,+Vuyyuru,+Andhra+Pradesh+521165&t=&z=16&ie=UTF8&iwloc=&output=embed"
+              loading="lazy"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT & ENQUIRY SECTION
+       ========================================================================== -->
+  <section class="enquiry-section" id="contact">
+    <div class="container">
+      <div class="enquiry-wrapper reveal-on-scroll">
+        <!-- Left Information Column -->
+        <div class="enquiry-sidebar">
+          <div>
+            <span class="section-tag" style="background: rgba(255,255,255,0.12); color: #F5EFEB; border-color: rgba(255,255,255,0.2);">
+              <i class="fa-solid fa-envelope-open-text"></i> Quick Contact
+            </span>
+            <h2 class="enquiry-sidebar-title">
+              Looking for the Right Furniture?
+            </h2>
+            <p class="enquiry-sidebar-text">
+              Have a furniture requirement? Contact Hafeez Furniture and enquire about available styles and products.
+            </p>
+
+            <div class="contact-quick-list">
+              <div class="contact-quick-item">
+                <div class="quick-icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                  <div class="quick-label">Prefer to call?</div>
+                  <div class="quick-val">
+                    <a href="tel:09059105786">090591 05786</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-quick-item">
+                <div class="quick-icon">
+                  <i class="fa-solid fa-store"></i>
+                </div>
+                <div>
+                  <div class="quick-label">Visit Showroom</div>
+                  <div class="quick-val">Kakanipark Center, Vuyyuru</div>
+                </div>
+              </div>
+
+              <div class="contact-quick-item">
+                <div class="quick-icon">
+                  <i class="fa-regular fa-clock"></i>
+                </div>
+                <div>
+                  <div class="quick-label">Store Hours</div>
+                  <div class="quick-val">9:00 AM – 9:00 PM (Daily)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top: 2rem; font-size: 0.825rem; color: #9E978F;">
+            <i class="fa-brands fa-whatsapp" style="color: #25D366; font-size: 1rem; margin-right: 0.35rem;"></i>
+            Instant WhatsApp inquiries sent directly to store phone.
+          </div>
+        </div>
+
+        <!-- Right Interactive Enquiry Form -->
+        <div class="enquiry-form-container">
+          <h3 class="form-heading">Send an Enquiry</h3>
+          <p class="form-subtext">
+            Fill in your details below and we will prepare a WhatsApp message directly for our store.
+          </p>
+
+          <form id="enquiryForm" onsubmit="handleEnquirySubmit(event)" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="customerName" class="form-label">Your Name *</label>
+                <input type="text" id="customerName" class="form-input" placeholder="e.g. Ramesh Kumar" required>
+              </div>
+
+              <div class="form-group">
+                <label for="customerPhone" class="form-label">Phone Number *</label>
+                <input type="tel" id="customerPhone" class="form-input" placeholder="e.g. 98765 43210" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="furnitureRequirement" class="form-label">Furniture Requirement *</label>
+              <select id="furnitureRequirement" class="form-select" required>
+                <option value="" disabled selected>Select a category or item</option>
+                <option value="Living Room / Sofas">Living Room / Sofas</option>
+                <option value="Bedroom / Beds">Bedroom / Beds</option>
+                <option value="Dining Room Set">Dining Room Set</option>
+                <option value="Wardrobe & Storage">Wardrobe & Storage</option>
+                <option value="Modern Sofa">Modern Sofa</option>
+                <option value="Classic Wooden Bed">Classic Wooden Bed</option>
+                <option value="Contemporary Dining Set">Contemporary Dining Set</option>
+                <option value="Elegant Wardrobe">Elegant Wardrobe</option>
+                <option value="Wooden Coffee Table">Wooden Coffee Table</option>
+                <option value="Modern Lounge Chair">Modern Lounge Chair</option>
+                <option value="Home & Office Furniture">Home & Office Furniture</option>
+                <option value="General Store Enquiry">General Store Enquiry</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="customerMessage" class="form-label">Message / Details (Optional)</label>
+              <textarea id="customerMessage" class="form-textarea" rows="4" placeholder="Tell us what style, size, or room requirements you have in mind..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.95rem;">
+              <i class="fa-brands fa-whatsapp" style="font-size: 1.15rem;"></i>
+              <span>Send Enquiry via WhatsApp</span>
+            </button>
+
+            <div class="form-note">
+              <i class="fa-solid fa-lock"></i>
+              <span>Your message opens securely in your WhatsApp app or web.</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo" aria-label="Hafeez Furniture Home">
+            <div class="logo-icon">
+              <i class="fa-solid fa-couch"></i>
+            </div>
+            <div class="logo-text-wrap">
+              <span class="logo-title">HAFEEZ</span>
+              <span class="logo-subtitle" style="color: var(--color-wood-muted);">FURNITURE</span>
+            </div>
+          </a>
+          <p class="footer-desc">
+            Furniture for every corner of your home. Serving customers with quality furniture in Vuyyuru, Andhra Pradesh.
+          </p>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="tel:09059105786" class="btn btn-outline-white btn-icon-round" title="Call Us">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="https://wa.me/919059105786" target="_blank" rel="noopener noreferrer" class="btn btn-outline-white btn-icon-round" title="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Hafeez+Furniture+Main+Road+Kakanipark+Center+Vuyyuru+Andhra+Pradesh+521165" target="_blank" rel="noopener noreferrer" class="btn btn-outline-white btn-icon-round" title="Google Maps">
+              <i class="fa-solid fa-map-location-dot"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="#home" class="footer-link"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Home</a></li>
+            <li><a href="#about" class="footer-link"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> About Us</a></li>
+            <li><a href="#categories" class="footer-link"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Categories</a></li>
+            <li><a href="#collection" class="footer-link"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Collection</a></li>
+            <li><a href="#why-us" class="footer-link"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Why Choose Us</a></li>
+            <li><a href="#visit" class="footer-link"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Visit Showroom</a></li>
+            <li><a href="#contact" class="footer-link"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h4 class="footer-heading">Showroom Details</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Main Road Kakanipark Center, Vuyyuru, Andhra Pradesh 521165, India</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:09059105786">090591 05786</a>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-regular fa-clock"></i>
+              <span>9:00 AM – 9:00 PM (Every day)</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-star" style="color: var(--color-gold);"></i>
+              <span>4.3 / 5 Rating on Google Reviews (26 reviews)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <div>
+          © 2026 Hafeez Furniture. All rights reserved.
+        </div>
+        <div>
+          Furniture Store in Vuyyuru, Andhra Pradesh
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       FLOATING ACTIONS (WhatsApp & Back To Top)
+       ========================================================================== -->
+  <div class="floating-buttons-bar">
+    <a href="https://wa.me/919059105786?text=Hi%20Hafeez%20Furniture,%20I%20would%20like%20to%20enquire%20about%20your%20furniture." 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="float-btn float-btn-whatsapp" 
+       aria-label="Chat on WhatsApp"
+       title="Chat on WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <button class="float-btn float-btn-top" id="backToTopBtn" aria-label="Back to Top" title="Back to Top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </div>
+
+  <!-- ==========================================================================
+       VANILLA JAVASCRIPT
+       ========================================================================== -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Sticky Navigation Scroll Effect
+      const siteHeader = document.getElementById('siteHeader');
+      const backToTopBtn = document.getElementById('backToTopBtn');
+
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+          siteHeader.classList.add('scrolled');
+        } else {
+          siteHeader.classList.remove('scrolled');
+        }
+
+        if (window.scrollY > 400) {
+          backToTopBtn.classList.add('visible');
+        } else {
+          backToTopBtn.classList.remove('visible');
+        }
+
+        // Active Navigation Highlighting
+        highlightActiveSection();
+      }, { passive: true });
+
+      // Back to top click
+      backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+
+      // 2. Mobile Drawer Navigation
+      const menuToggle = document.getElementById('menuToggle');
+      const mobileDrawer = document.getElementById('mobileDrawer');
+      const drawerOverlay = document.getElementById('drawerOverlay');
+      const drawerClose = document.getElementById('drawerClose');
+      const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+      function openDrawer() {
+        mobileDrawer.classList.add('open');
+        drawerOverlay.classList.add('active');
+        drawerOverlay.setAttribute('aria-hidden', 'false');
+        menuToggle.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeDrawer() {
+        mobileDrawer.classList.remove('open');
+        drawerOverlay.classList.remove('active');
+        drawerOverlay.setAttribute('aria-hidden', 'true');
+        menuToggle.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      }
+
+      if (menuToggle) menuToggle.addEventListener('click', openDrawer);
+      if (drawerClose) drawerClose.addEventListener('click', closeDrawer);
+      if (drawerOverlay) drawerOverlay.addEventListener('click', closeDrawer);
+
+      mobileNavLinks.forEach(link => {
+        link.addEventListener('click', closeDrawer);
+      });
+
+      // 3. Active Section Highlighting
+      const sections = document.querySelectorAll('section[id]');
+      const navLinks = document.querySelectorAll('.nav-link');
+
+      function highlightActiveSection() {
+        const scrollPosition = window.scrollY + 120;
+
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.offsetHeight;
+          const sectionId = section.getAttribute('id');
+
+          if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            navLinks.forEach(link => {
+              link.classList.remove('active');
+              if (link.getAttribute('href') === `#${sectionId}`) {
+                link.classList.add('active');
+              }
+            });
+          }
+        });
+      }
+
+      // 4. Scroll Reveal Intersection Observer
+      const revealElements = document.querySelectorAll('.reveal-on-scroll');
+      if ('IntersectionObserver' in window) {
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('revealed');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: 0.1,
+          rootMargin: '0px 0px -40px 0px'
+        });
+
+        revealElements.forEach(el => revealObserver.observe(el));
+      } else {
+        // Fallback for older browsers
+        revealElements.forEach(el => el.classList.add('revealed'));
+      }
+
+      // 5. Store Open Status Check (9:00 AM - 9:00 PM Every Day)
+      checkStoreLiveStatus();
+    });
+
+    // Check store open status based on Indian Standard Time (IST UTC+5:30)
+    function checkStoreLiveStatus() {
+      const liveStatusText = document.getElementById('liveStatusText');
+      const liveStatusBadge = document.getElementById('liveStatusBadge');
+      if (!liveStatusText || !liveStatusBadge) return;
+
+      try {
+        const now = new Date();
+        // Convert to IST
+        const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+        const istOffset = 5.5 * 60 * 60 * 1000;
+        const istDate = new Date(utc + istOffset);
+        
+        const currentHours = istDate.getHours();
+        const currentMinutes = istDate.getMinutes();
+        const currentTimeDecimal = currentHours + (currentMinutes / 60);
+
+        // Open 9:00 AM (9) to 9:00 PM (21)
+        if (currentTimeDecimal >= 9 && currentTimeDecimal < 21) {
+          liveStatusText.textContent = 'Open Today until 9:00 PM';
+        } else {
+          liveStatusText.textContent = 'Opens at 9:00 AM';
+          const dot = liveStatusBadge.querySelector('.badge-open-dot');
+          if (dot) {
+            dot.style.backgroundColor = '#fbbf24';
+            dot.style.boxShadow = '0 0 6px #fbbf24';
+          }
+          liveStatusBadge.style.color = '#fde68a';
+          liveStatusBadge.style.backgroundColor = 'rgba(251, 191, 36, 0.15)';
+          liveStatusBadge.style.borderColor = 'rgba(251, 191, 36, 0.25)';
+        }
+      } catch (e) {
+        liveStatusText.textContent = 'Open Daily 9 AM - 9 PM';
+      }
+    }
+
+    // 6. Prefill and Scroll to Enquiry Form
+    function prefillEnquiry(furnitureItem) {
+      const selectElement = document.getElementById('furnitureRequirement');
+      const contactSection = document.getElementById('contact');
+      
+      if (selectElement) {
+        // Find matching option or select general
+        let matched = false;
+        for (let i = 0; i < selectElement.options.length; i++) {
+          if (selectElement.options[i].value.toLowerCase().includes(furnitureItem.toLowerCase()) || 
+              furnitureItem.toLowerCase().includes(selectElement.options[i].value.toLowerCase())) {
+            selectElement.selectedIndex = i;
+            matched = true;
+            break;
+          }
+        }
+        if (!matched) {
+          selectElement.value = 'General Store Enquiry';
+        }
+      }
+
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+        const nameInput = document.getElementById('customerName');
+        if (nameInput) {
+          setTimeout(() => nameInput.focus(), 600);
+        }
+      }
+    }
+
+    // 7. Handle Enquiry Submit & WhatsApp Redirection
+    function handleEnquirySubmit(event) {
+      event.preventDefault();
+
+      const nameInput = document.getElementById('customerName');
+      const phoneInput = document.getElementById('customerPhone');
+      const requirementSelect = document.getElementById('furnitureRequirement');
+      const messageTextarea = document.getElementById('customerMessage');
+
+      const name = nameInput.value.trim();
+      const phone = phoneInput.value.trim();
+      const requirement = requirementSelect.value;
+      const message = messageTextarea.value.trim();
+
+      // Simple validation
+      if (!name) {
+        alert('Please enter your name.');
+        nameInput.focus();
+        return;
+      }
+
+      if (!phone || phone.length < 8) {
+        alert('Please enter a valid phone number.');
+        phoneInput.focus();
+        return;
+      }
+
+      if (!requirement) {
+        alert('Please select your furniture requirement.');
+        requirementSelect.focus();
+        return;
+      }
+
+      // Construct formatted WhatsApp message
+      const storePhoneNumber = "919059105786";
+      
+      let formattedText = `*New Furniture Enquiry - Hafeez Furniture*\n\n`;
+      formattedText += `👤 *Customer Name:* ${name}\n`;
+      formattedText += `📞 *Phone Number:* ${phone}\n`;
+      formattedText += `🛋️ *Furniture Requirement:* ${requirement}\n`;
+      
+      if (message) {
+        formattedText += `💬 *Message:* ${message}\n`;
+      }
+      
+      formattedText += `\n_Sent via Hafeez Furniture Website_`;
+
+      const encodedMessage = encodeURIComponent(formattedText);
+      const whatsappUrl = `https://wa.me/${storePhoneNumber}?text=${encodedMessage}`;
+
+      // Open WhatsApp in new tab / application
+      window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+    }
+
+    // 8. Native Share Location API
+    function shareStoreLocation() {
+      const shareData = {
+        title: 'Hafeez Furniture - Vuyyuru',
+        text: 'Visit Hafeez Furniture at Main Road Kakanipark Center, Vuyyuru, Andhra Pradesh 521165.',
+        url: 'https://www.google.com/maps/search/?api=1&query=Hafeez+Furniture+Main+Road+Kakanipark+Center+Vuyyuru+Andhra+Pradesh+521165'
+      };
+
+      if (navigator.share) {
+        navigator.share(shareData).catch((err) => {
+          console.log('Share canceled or error: ', err);
+        });
+      } else {
+        // Fallback: Copy link to clipboard
+        navigator.clipboard.writeText(shareData.url).then(() => {
+          alert('Location link copied to clipboard!');
+        }).catch(() => {
+          window.open(shareData.url, '_blank');
+        });
+      }
+    }
+  </script>
+</body>
+</html>
